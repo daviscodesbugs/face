@@ -4,8 +4,8 @@
 import sys, pyperclip, pprint
 
 FACES = {
-    'smug': u'😏',
-    'wink': u'😉',
+    'smug': '😏',
+    'wink': '😉',
     'wink tongue': '😜',
     'XD': '😆',
     'frown': '🙁'
