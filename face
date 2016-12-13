@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+# coding=utf-8
+
+import sys, pyperclip
+
+def face(t):
+    return {
+        'smug': '😏',
+        'wink': '😉',
+        'wink tongue': '😜',
+        'XD': '😆',
+        'frown': '🙁'
+    }.get(t, '😊')
+
+f = None
+if len(sys.argv) > 1:
+    f = " ".join(sys.argv[1:])
+
+pyperclip.copy(face(f))
