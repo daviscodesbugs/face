@@ -18,6 +18,10 @@ Create symlink
 
     sudo ln -sf /opt/face/face /usr/local/bin/face
 
+Install dependencies
+
+    sudo pip install pyperclip
+
 ## Usage
 
 See available faces
