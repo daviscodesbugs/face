@@ -20,6 +20,7 @@ if len(sys.argv) > 1:
     face = " ".join(sys.argv[1:])
 
 if face == "help":
-	pprint.pprint(FACES)
+    for k,v in FACES.iteritems():
+        print k.ljust(max(map(len, FACES))) + " | " + v
 
 pyperclip.copy(getFace(face))
