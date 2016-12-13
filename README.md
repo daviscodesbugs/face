@@ -2,6 +2,8 @@
 
 A CLI for emojis
 
+Take a look at the [reference page](reference.md)
+
 ## Installation
 
 Clone the repository
