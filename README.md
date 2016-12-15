@@ -1,6 +1,6 @@
 # Face
 
-A CLI for emojis
+A linux CLI for emojis
 
 Take a look at the [reference page](reference.md)
 
