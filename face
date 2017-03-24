@@ -19,6 +19,7 @@ def getFace(t):
 face = None
 if len(sys.argv) > 1:
     face = " ".join(sys.argv[1:])
+print getFace(face)
 
 if face == "help":
     for k,v in FACES.iteritems():
